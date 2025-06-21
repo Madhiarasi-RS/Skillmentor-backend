@@ -43,7 +43,7 @@ app.use('/api/', limiter);
 
 // CORS configuration (support localhost + deployed frontend)
 const allowedOrigins = [
-  'http://localhost:3000',
+  'http://localhost:8080',
   'https://skill-mentor-ai.vercel.app'
 ];
 
