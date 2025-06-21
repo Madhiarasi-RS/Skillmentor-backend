@@ -43,7 +43,7 @@ app.use('/api/', limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: https://skill-mentor-ai.vercel.app/',
+  origin: 'https://skill-mentor-ai.vercel.app/',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
